@@ -1,12 +1,12 @@
 import clsx from "clsx";
 import styles from "../styles/Home.module.css";
 
-import { targetDate } from "../config";
-import useTimer from "@hooks/useTimer";
+// import { targetDate } from "../config";
+// import useTimer from "@hooks/useTimer";
 
 export default function Home() {
   const today = new Date(Date.now());
-  const end = targetDate;  
+  // const end = targetDate;  
 
   return (
     <div className="flex w-screen h-screen items-center justify-center">
