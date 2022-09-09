@@ -17,7 +17,6 @@ export default function useTimer(type: TimerType, options: TimerOptions) {
   const [counter, setCounter]: any = useState(0);
   const [running, setRunning] = useState(false);
   useEffect(() => {
-    console.log(options);
     const delta = options.end.valueOf() - options.start.valueOf();
     setCounter(delta < 0 ? 0 : delta);
   }, []);

@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
     <div className="flex w-screen h-screen items-center justify-center">
-      <h1 className={clsx(styles["time-counter"], "text-9xl text-gray-300")}>
+      <h1 className={clsx(styles["time-counter"], "text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl text-gray-300")}>
         {addZero(hours)}:{addZero(minutes)}:{addZero(seconds)}
       </h1>
     </div>
